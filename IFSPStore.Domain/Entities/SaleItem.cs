@@ -8,17 +8,21 @@ public class SaleItem : BaseEntity<int>
     public Product Product { get; set; }
     public int Quantity { get; set; }
     public decimal UnitaryValue { get; set; }
-    public decimal TotalValue { get; set; }
+    public decimal SaleTotal { get; set; }
 
+    public SaleItem()
+    {
+
+    }
 
   
 
-    public SaleItem(int id, int quantity, decimal unitaryValue, decimal totalValue, Product product, Sale sale)
+    public SaleItem(int id, int quantity, decimal unitaryValue, decimal Saletotal, Product product, Sale sale)
         : base(id)
     {
         Quantity = quantity;
         UnitaryValue = unitaryValue;
-        TotalValue = totalValue;
+        Saletotal = SaleTotal;
         Product = product;
         Sale = sale;
     }

@@ -1,5 +1,5 @@
 ﻿using IFSPStore.Domain.Base;
-using System.Text.RegularExpressions;
+
 
 namespace IFSPStore.Domain.Entities;
 
@@ -10,12 +10,14 @@ public class Product : BaseEntity<int>
     public int Quantity { get; set; }
     public DateTime PurchaseDate { get; set; }
     public string SaleUnity { get; set; }
-    public Group Group { get; set; }
+    public Category Category { get; set; }
 
 
-  
+  public Product()
+    { 
+    }
 
-    public Product(int id, string name, decimal value, int quantity, DateTime purchaseDate, string saleUnity, Group group)
+    public Product(int id, string name, decimal value, int quantity, DateTime purchaseDate, string saleUnity, Category category)
         : base(id)
     {
         Name = name;
@@ -23,6 +25,6 @@ public class Product : BaseEntity<int>
         Quantity = quantity;
         PurchaseDate = purchaseDate;
         SaleUnity = saleUnity;
-        Group = group;
+        Category = category;
     }
 }

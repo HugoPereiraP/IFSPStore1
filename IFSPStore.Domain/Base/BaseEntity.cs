@@ -8,12 +8,14 @@ namespace IFSPStore.Domain.Base
 {
     public abstract class BaseEntity<TId> : IBaseEntity
     {
+        protected BaseEntity()
+        {
+
+        }
         public TId Id { get; private set; }
 
         public BaseEntity(TId id) => Id = id;
 
-        public BaseEntity()
-        {
-        }
+        
     }
 }

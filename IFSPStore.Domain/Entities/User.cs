@@ -11,10 +11,13 @@ public class User : BaseEntity<int>
     public DateTime RegisterDate { get; set; }
     public DateTime LoginDate { get; set; }
     public bool IsActive { get; set; }
-    public List<Sale> Sales { get; set; }
 
- 
-   
+
+
+    public User()
+    {
+    }
+
 
     public User(int id, string name, string password, string login, string email, DateTime registerDate, DateTime loginDate, bool isActive, List<Sale> sales)
         : base(id)
@@ -26,6 +29,6 @@ public class User : BaseEntity<int>
         RegisterDate = registerDate;
         LoginDate = loginDate;
         IsActive = isActive;
-        Sales = sales;
+
     }
 }
