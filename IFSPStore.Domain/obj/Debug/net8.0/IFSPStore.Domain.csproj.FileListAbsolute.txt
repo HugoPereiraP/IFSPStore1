@@ -9,3 +9,4 @@ C:\Users\migue\OneDrive\Documentos\Faculdade\IFPSStore\IFSPStore.Domain\obj\Debu
 C:\Users\migue\OneDrive\Documentos\Faculdade\IFPSStore\IFSPStore.Domain\obj\Debug\net8.0\refint\IFSPStore.Domain.dll
 C:\Users\migue\OneDrive\Documentos\Faculdade\IFPSStore\IFSPStore.Domain\obj\Debug\net8.0\IFSPStore.Domain.pdb
 C:\Users\migue\OneDrive\Documentos\Faculdade\IFPSStore\IFSPStore.Domain\obj\Debug\net8.0\ref\IFSPStore.Domain.dll
+C:\Users\migue\OneDrive\Documentos\Faculdade\IFPSStore\IFSPStore.Domain\obj\Debug\net8.0\IFSPStore.Domain.sourcelink.json

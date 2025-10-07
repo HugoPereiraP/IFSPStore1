@@ -10,14 +10,14 @@ public class Product : BaseEntity<int>
     public int Quantity { get; set; }
     public DateTime PurchaseDate { get; set; }
     public string SaleUnity { get; set; }
-    public Group Group { get; set; }
+    public Category Group { get; set; }
 
 
     public Product()
     {
     }
 
-    public Product(int id, string name, decimal value, int quantity, DateTime purchaseDate, string saleUnity, Group group)
+    public Product(int id, string name, decimal value, int quantity, DateTime purchaseDate, string saleUnity, Category group)
         : base(id)
     {
         Name = name;

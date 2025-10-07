@@ -3,28 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\migue\\OneDrive\\Documentos\\Faculdade\\IFPSStore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1FEB8B1A-207B-4E74-A4FD-9BFC45A53C69}|IFSPStore.Domain\\IFSPStore.Domain.csproj|c:\\users\\migue\\onedrive\\documentos\\faculdade\\ifpsstore\\ifspstore.domain\\entities\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1FEB8B1A-207B-4E74-A4FD-9BFC45A53C69}|IFSPStore.Domain\\IFSPStore.Domain.csproj|solutionrelative:ifspstore.domain\\entities\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1FEB8B1A-207B-4E74-A4FD-9BFC45A53C69}|IFSPStore.Domain\\IFSPStore.Domain.csproj|c:\\users\\migue\\onedrive\\documentos\\faculdade\\ifpsstore\\ifspstore.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1FEB8B1A-207B-4E74-A4FD-9BFC45A53C69}|IFSPStore.Domain\\IFSPStore.Domain.csproj|solutionrelative:ifspstore.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1FEB8B1A-207B-4E74-A4FD-9BFC45A53C69}|IFSPStore.Domain\\IFSPStore.Domain.csproj|c:\\users\\migue\\onedrive\\documentos\\faculdade\\ifpsstore\\ifspstore.domain\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1FEB8B1A-207B-4E74-A4FD-9BFC45A53C69}|IFSPStore.Domain\\IFSPStore.Domain.csproj|solutionrelative:ifspstore.domain\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1FEB8B1A-207B-4E74-A4FD-9BFC45A53C69}|IFSPStore.Domain\\IFSPStore.Domain.csproj|c:\\users\\migue\\onedrive\\documentos\\faculdade\\ifpsstore\\ifspstore.domain\\entities\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1FEB8B1A-207B-4E74-A4FD-9BFC45A53C69}|IFSPStore.Domain\\IFSPStore.Domain.csproj|solutionrelative:ifspstore.domain\\entities\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1FEB8B1A-207B-4E74-A4FD-9BFC45A53C69}|IFSPStore.Domain\\IFSPStore.Domain.csproj|c:\\users\\migue\\onedrive\\documentos\\faculdade\\ifpsstore\\ifspstore.domain\\base\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1FEB8B1A-207B-4E74-A4FD-9BFC45A53C69}|IFSPStore.Domain\\IFSPStore.Domain.csproj|solutionrelative:ifspstore.domain\\base\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1FEB8B1A-207B-4E74-A4FD-9BFC45A53C69}|IFSPStore.Domain\\IFSPStore.Domain.csproj|c:\\users\\migue\\onedrive\\documentos\\faculdade\\ifpsstore\\ifspstore.domain\\base\\ibaseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1FEB8B1A-207B-4E74-A4FD-9BFC45A53C69}|IFSPStore.Domain\\IFSPStore.Domain.csproj|solutionrelative:ifspstore.domain\\base\\ibaseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5896AF0C-86BE-42B2-B921-0F7A531AB8A8}|IFSPStore.Test\\IFSPStore.Test.csproj|c:\\users\\migue\\onedrive\\documentos\\faculdade\\ifpsstore\\ifspstore.test\\repositorytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5896AF0C-86BE-42B2-B921-0F7A531AB8A8}|IFSPStore.Test\\IFSPStore.Test.csproj|solutionrelative:ifspstore.test\\repositorytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1203,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -57,85 +37,16 @@
               "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Sale.cs",
-              "DocumentMoniker": "C:\\Users\\migue\\OneDrive\\Documentos\\Faculdade\\IFPSStore\\IFSPStore.Domain\\Entities\\Sale.cs",
-              "RelativeDocumentMoniker": "IFSPStore.Domain\\Entities\\Sale.cs",
-              "ToolTip": "C:\\Users\\migue\\OneDrive\\Documentos\\Faculdade\\IFPSStore\\IFSPStore.Domain\\Entities\\Sale.cs",
-              "RelativeToolTip": "IFSPStore.Domain\\Entities\\Sale.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "RepositoryTest.cs",
+              "DocumentMoniker": "C:\\Users\\migue\\OneDrive\\Documentos\\Faculdade\\IFPSStore\\IFSPStore.Test\\RepositoryTest.cs",
+              "RelativeDocumentMoniker": "IFSPStore.Test\\RepositoryTest.cs",
+              "ToolTip": "C:\\Users\\migue\\OneDrive\\Documentos\\Faculdade\\IFPSStore\\IFSPStore.Test\\RepositoryTest.cs",
+              "RelativeToolTip": "IFSPStore.Test\\RepositoryTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T13:40:47.866Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\migue\\OneDrive\\Documentos\\Faculdade\\IFPSStore\\IFSPStore.Domain\\Entities\\Product.cs",
-              "RelativeDocumentMoniker": "IFSPStore.Domain\\Entities\\Product.cs",
-              "ToolTip": "C:\\Users\\migue\\OneDrive\\Documentos\\Faculdade\\IFPSStore\\IFSPStore.Domain\\Entities\\Product.cs",
-              "RelativeToolTip": "IFSPStore.Domain\\Entities\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T13:40:41.488Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\migue\\OneDrive\\Documentos\\Faculdade\\IFPSStore\\IFSPStore.Domain\\Entities\\Customer.cs",
-              "RelativeDocumentMoniker": "IFSPStore.Domain\\Entities\\Customer.cs",
-              "ToolTip": "C:\\Users\\migue\\OneDrive\\Documentos\\Faculdade\\IFPSStore\\IFSPStore.Domain\\Entities\\Customer.cs",
-              "RelativeToolTip": "IFSPStore.Domain\\Entities\\Customer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T13:40:35.879Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "City.cs",
-              "DocumentMoniker": "C:\\Users\\migue\\OneDrive\\Documentos\\Faculdade\\IFPSStore\\IFSPStore.Domain\\Entities\\City.cs",
-              "RelativeDocumentMoniker": "IFSPStore.Domain\\Entities\\City.cs",
-              "ToolTip": "C:\\Users\\migue\\OneDrive\\Documentos\\Faculdade\\IFPSStore\\IFSPStore.Domain\\Entities\\City.cs",
-              "RelativeToolTip": "IFSPStore.Domain\\Entities\\City.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T13:40:26.048Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BaseEntity.cs",
-              "DocumentMoniker": "C:\\Users\\migue\\OneDrive\\Documentos\\Faculdade\\IFPSStore\\IFSPStore.Domain\\Base\\BaseEntity.cs",
-              "RelativeDocumentMoniker": "IFSPStore.Domain\\Base\\BaseEntity.cs",
-              "ToolTip": "C:\\Users\\migue\\OneDrive\\Documentos\\Faculdade\\IFPSStore\\IFSPStore.Domain\\Base\\BaseEntity.cs",
-              "RelativeToolTip": "IFSPStore.Domain\\Base\\BaseEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T13:20:57.376Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IBaseEntity.cs",
-              "DocumentMoniker": "C:\\Users\\migue\\OneDrive\\Documentos\\Faculdade\\IFPSStore\\IFSPStore.Domain\\Base\\IBaseEntity.cs",
-              "RelativeDocumentMoniker": "IFSPStore.Domain\\Base\\IBaseEntity.cs",
-              "ToolTip": "C:\\Users\\migue\\OneDrive\\Documentos\\Faculdade\\IFPSStore\\IFSPStore.Domain\\Base\\IBaseEntity.cs",
-              "RelativeToolTip": "IFSPStore.Domain\\Base\\IBaseEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T13:15:44.499Z",
+              "WhenOpened": "2025-10-07T14:29:02.376Z",
               "EditorCaption": ""
             }
           ]

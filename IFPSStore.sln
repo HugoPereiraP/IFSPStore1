@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36414.22 d17.14
+VisualStudioVersion = 17.14.36414.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IFSPStore.Domain", "IFSPStore.Domain\IFSPStore.Domain.csproj", "{1FEB8B1A-207B-4E74-A4FD-9BFC45A53C69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IFSPStore.Repository", "IFSPStore.Repository\IFSPStore.Repository.csproj", "{560DBE00-2827-4F1F-BE0F-8B504E3EFDCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IFSPStore.Test", "IFSPStore.Test\IFSPStore.Test.csproj", "{5896AF0C-86BE-42B2-B921-0F7A531AB8A8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{1FEB8B1A-207B-4E74-A4FD-9BFC45A53C69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FEB8B1A-207B-4E74-A4FD-9BFC45A53C69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FEB8B1A-207B-4E74-A4FD-9BFC45A53C69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{560DBE00-2827-4F1F-BE0F-8B504E3EFDCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{560DBE00-2827-4F1F-BE0F-8B504E3EFDCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{560DBE00-2827-4F1F-BE0F-8B504E3EFDCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{560DBE00-2827-4F1F-BE0F-8B504E3EFDCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5896AF0C-86BE-42B2-B921-0F7A531AB8A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5896AF0C-86BE-42B2-B921-0F7A531AB8A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5896AF0C-86BE-42B2-B921-0F7A531AB8A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5896AF0C-86BE-42B2-B921-0F7A531AB8A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

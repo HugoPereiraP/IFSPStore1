@@ -9,20 +9,18 @@ public class Customer : BaseEntity<int>
     public string Document { get; set; }
     public string Neighborhood { get; set; }
     public City City { get; set; }
-    public List<Sale> Purchases { get; set; }
 
     public Customer()
     {
     }
 
-    public Customer(int id, string name, string address, string document, string neighborhood, List<Sale> purchases, City city)
+    public Customer(int id, string name, string address, string document, string neighborhood, City city)
         : base(id)
     {
         Name = name;
         Address = address;
         Document = document;
         Neighborhood = neighborhood;
-        Purchases = purchases;
         City = city;
     }
 }

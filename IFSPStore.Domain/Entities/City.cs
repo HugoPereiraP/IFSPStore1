@@ -9,7 +9,6 @@ public class City : BaseEntity<int>
 
     public City()
     {
-        
     }
 
     public City(int id, string name, string state)
