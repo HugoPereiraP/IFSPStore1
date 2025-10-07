@@ -1,19 +1,18 @@
-﻿
+﻿using IFSPStore.Domain.Base;
 
-using IFSPStore.Domain.Base;
-using System.Security.Cryptography.X509Certificates;
+namespace IFSPStore.Domain.Entities;
 
-namespace IFSPStore.Domain.Entities
+public class City : BaseEntity<int>
 {
-    public class City : BaseEntity<int>
+    public string Name { get; set; }
+    public string State { get; set; }
+
+   
+
+    public City(int id, string name, string state)
+        : base(id)
     {
-            public City(int id, string name, string estate) : base(id)
-            {
-                Name = name;
-                Estate = estate;
-            }
-            public string Name { get; set; }    
-            public string Estate { get; set; }
+        Name = name;
+        State = state;
     }
-    
 }

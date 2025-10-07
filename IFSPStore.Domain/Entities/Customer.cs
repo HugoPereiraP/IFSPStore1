@@ -1,29 +1,26 @@
-﻿
-using IFSPStore.Domain.Base;
+﻿using IFSPStore.Domain.Base;
 
-namespace IFSPStore.Domain.Entities
+namespace IFSPStore.Domain.Entities;
+
+public class Customer : BaseEntity<int>
 {
-    public class Customer  : BaseEntity<int>
+    public string Name { get; set; }
+    public string Address { get; set; }
+    public string Document { get; set; }
+    public string Neighborhood { get; set; }
+    public City City { get; set; }
+    public List<Sale> Purchases { get; set; }
+
+  
+
+    public Customer(int id, string name, string address, string document, string neighborhood, List<Sale> purchases, City city)
+        : base(id)
     {
-        public Customer(int id,string name,  string adress, string document ,string state, string district, City city) : base(id)
-        {
-            Name = name;
-          Id = id;
-            Adress = adress;
-            Document = document;
-            District = district;
-          City = city;
-         
-        }
-
-        public int Id { get; set; }
-        public string Name { get; set; }   
-        public string Adress { get; set; }
-        public string Document { get; set; }
-        public string District { get; set; }
-        public City City { get; set; }
-        
-
-
+        Name = name;
+        Address = address;
+        Document = document;
+        Neighborhood = neighborhood;
+        Purchases = purchases;
+        City = city;
     }
 }

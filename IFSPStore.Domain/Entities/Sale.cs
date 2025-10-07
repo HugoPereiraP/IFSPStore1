@@ -1,27 +1,23 @@
-﻿
+﻿using IFSPStore.Domain.Base;
 
-using IFSPStore.Domain.Base;
+namespace IFSPStore.Domain.Entities;
 
-namespace IFSPStore.Domain.Entities
+public class Sale : BaseEntity<int>
 {
-    internal class Sale : BaseEntity<int>
+    public DateTime Date { get; set; }
+    public decimal TotalValue { get; set; }
+    public User User { get; set; }
+    public Customer Customer { get; set; }
+    public List<SaleItem> Items { get; set; }
+
+   
+    public Sale(int id, DateTime date, decimal totalValue, List<SaleItem> items, User user, Customer customer)
+        : base(id)
     {
-        public Sale(int id, DateTime saleDate, decimal totalValue, Customer customer, User user) : base(id)
-        {
-            SaleDate = saleDate;
-            TotalValue = totalValue;
-            Customer = customer;
-            User = user;
-        }
-
-        public DateTime SaleDate { get; set; }
-        public decimal TotalValue { get; set; }
-        public Customer Customer { get; set; }
-        public User User { get; set; }
-
-        public int UserId => User?.Id ?? 0;
+        Date = date;
+        TotalValue = totalValue;
+        Items = items;
+        User = user;
+        Customer = customer;
     }
-    }
-
-
-
+}

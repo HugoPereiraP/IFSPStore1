@@ -1,26 +1,28 @@
-﻿
+﻿using IFSPStore.Domain.Base;
+using System.Text.RegularExpressions;
 
-namespace IFSPStore.Domain.Entities
+namespace IFSPStore.Domain.Entities;
+
+public class Product : BaseEntity<int>
 {
-    public class Product
+    public string Name { get; set; }
+    public decimal Value { get; set; }
+    public int Quantity { get; set; }
+    public DateTime PurchaseDate { get; set; }
+    public string SaleUnity { get; set; }
+    public Group Group { get; set; }
 
+
+  
+
+    public Product(int id, string name, decimal value, int quantity, DateTime purchaseDate, string saleUnity, Group group)
+        : base(id)
     {
-       public Product(int id, string name, int quantity, decimal price, DateTime purchasedate, Category category)
-        {
-            Id = id;
-            Name = name;
-            Quantity = quantity;
-            Price = price;
-            Purchasedate = purchasedate;
-            Category = category;
-
-
-        }
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public int Quantity { get; set; }
-        public decimal Price { get; set; }
-        public DateTime Purchasedate { get; set; }
-        public Category Category { get; set; }
-        }
+        Name = name;
+        Value = value;
+        Quantity = quantity;
+        PurchaseDate = purchaseDate;
+        SaleUnity = saleUnity;
+        Group = group;
+    }
 }

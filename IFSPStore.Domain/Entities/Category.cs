@@ -1,16 +1,18 @@
-﻿
-namespace IFSPStore.Domain.Entities
+﻿using IFSPStore.Domain.Base;
+
+namespace IFSPStore.Domain.Entities;
+
+public class Category : BaseEntity<int>
 {
-    public class Category
+    public string Name { get; set; }
+    public List<Product> Products { get; set; }
+
+   
+
+    public Category(int id, string name, List<Product> products)
+        : base(id)
     {
-        public int Id { get; set; }
-
-        public Category(int id, string name)
-        {
-            Id = id;
-            Name = name;
-        }
-
-        public string Name { get; set; }
+        Name = name;
+        Products = products;
     }
 }

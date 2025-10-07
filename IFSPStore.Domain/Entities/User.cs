@@ -1,31 +1,31 @@
-﻿
+﻿using IFSPStore.Domain.Base;
 
-using IFSPStore.Domain.Base;
+namespace IFSPStore.Domain.Entities;
 
-namespace IFSPStore.Domain.Entities
+public class User : BaseEntity<int>
 {
-    public class User : BaseEntity<int>
+    public string Name { get; set; }
+    public string Password { get; set; }
+    public string Login { get; set; }
+    public string Email { get; set; }
+    public DateTime RegisterDate { get; set; }
+    public DateTime LoginDate { get; set; }
+    public bool IsActive { get; set; }
+    public List<Sale> Sales { get; set; }
+
+ 
+   
+
+    public User(int id, string name, string password, string login, string email, DateTime registerDate, DateTime loginDate, bool isActive, List<Sale> sales)
+        : base(id)
     {
-        public User(int id, string name, string email, string password, string login, DateTime registerDate, DateTime loginDate, int ativobinary) : base(id)
-        {
-            Id = id;
-            Name = name;
-            Email = email;
-            Password = password;
-            Login = login;
-            RegisterDate = registerDate;
-            LoginDate = loginDate;
-            Ativobinary = ativobinary;
-        }
-
-        public string Name { get; set; }
-        public string Email { get; set; }
-        public string Password { get; set; }
-        public string Login { get; set; }
-        public DateTime RegisterDate { get; set; }
-        public DateTime LoginDate { get; set; }
-        public int Ativobinary { get; set; }
-
-        
+        Name = name;
+        Password = password;
+        Login = login;
+        Email = email;
+        RegisterDate = registerDate;
+        LoginDate = loginDate;
+        IsActive = isActive;
+        Sales = sales;
     }
 }
