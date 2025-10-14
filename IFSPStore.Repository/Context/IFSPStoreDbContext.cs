@@ -1,4 +1,5 @@
 ﻿using IFSPStore.Domain.Entities;
+using IFSPStore.Repository.Mapping;
 using Microsoft.EntityFrameworkCore;
 
 namespace IFSPStore.Repository.Context;
@@ -13,6 +14,14 @@ public class IFSPStoreDbContext : DbContext
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         optionsBuilder.UseMySQL("Server=localhost;DataBase=IFSPStoreDb;Uid=Developer;Pwd=123456789");
+    }
+
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        base.OnModelCreating(modelBuilder);
+
+        //modelBuilder.Entity<Category>(new CategoryMap().Configure);
+        modelBuilder.ApplyConfigurationsFromAssembly(typeof(IFSPStoreDbContext).Assembly);
     }
 
     public DbSet<Category> Categories { get; set; }

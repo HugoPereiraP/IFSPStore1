@@ -10,3 +10,15 @@ C:\Users\migue\OneDrive\Documentos\Faculdade\IFPSStore\IFSPStore.Domain\obj\Debu
 C:\Users\migue\OneDrive\Documentos\Faculdade\IFPSStore\IFSPStore.Domain\obj\Debug\net8.0\IFSPStore.Domain.pdb
 C:\Users\migue\OneDrive\Documentos\Faculdade\IFPSStore\IFSPStore.Domain\obj\Debug\net8.0\ref\IFSPStore.Domain.dll
 C:\Users\migue\OneDrive\Documentos\Faculdade\IFPSStore\IFSPStore.Domain\obj\Debug\net8.0\IFSPStore.Domain.sourcelink.json
+C:\Users\migue\OneDrive\Documentos\Faculdade\poe\IFPSStore\IFSPStore.Domain\bin\Debug\net8.0\IFSPStore.Domain.deps.json
+C:\Users\migue\OneDrive\Documentos\Faculdade\poe\IFPSStore\IFSPStore.Domain\bin\Debug\net8.0\IFSPStore.Domain.dll
+C:\Users\migue\OneDrive\Documentos\Faculdade\poe\IFPSStore\IFSPStore.Domain\bin\Debug\net8.0\IFSPStore.Domain.pdb
+C:\Users\migue\OneDrive\Documentos\Faculdade\poe\IFPSStore\IFSPStore.Domain\obj\Debug\net8.0\IFSPStore.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\migue\OneDrive\Documentos\Faculdade\poe\IFPSStore\IFSPStore.Domain\obj\Debug\net8.0\IFSPStore.Domain.AssemblyInfoInputs.cache
+C:\Users\migue\OneDrive\Documentos\Faculdade\poe\IFPSStore\IFSPStore.Domain\obj\Debug\net8.0\IFSPStore.Domain.AssemblyInfo.cs
+C:\Users\migue\OneDrive\Documentos\Faculdade\poe\IFPSStore\IFSPStore.Domain\obj\Debug\net8.0\IFSPStore.Domain.csproj.CoreCompileInputs.cache
+C:\Users\migue\OneDrive\Documentos\Faculdade\poe\IFPSStore\IFSPStore.Domain\obj\Debug\net8.0\IFSPStore.Domain.sourcelink.json
+C:\Users\migue\OneDrive\Documentos\Faculdade\poe\IFPSStore\IFSPStore.Domain\obj\Debug\net8.0\IFSPStore.Domain.dll
+C:\Users\migue\OneDrive\Documentos\Faculdade\poe\IFPSStore\IFSPStore.Domain\obj\Debug\net8.0\refint\IFSPStore.Domain.dll
+C:\Users\migue\OneDrive\Documentos\Faculdade\poe\IFPSStore\IFSPStore.Domain\obj\Debug\net8.0\IFSPStore.Domain.pdb
+C:\Users\migue\OneDrive\Documentos\Faculdade\poe\IFPSStore\IFSPStore.Domain\obj\Debug\net8.0\ref\IFSPStore.Domain.dll

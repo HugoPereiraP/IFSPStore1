@@ -21,12 +21,15 @@ namespace IFSPStore.Test
 
                 Console.WriteLine("Banco conectado!");
 
-                var category1 = new Category(1, "Carnes");
-                var category2 = new Category(2, "Bebidas");
-                var category3 = new Category(3, "Eletronicos");
+                if(!context.Categories.Any())
+                {
+                    var category1 = new Category(1, "Carnes");
+                    var category2 = new Category(2, "Bebidas");
+                    var category3 = new Category(3, "Eletronicos");
 
-                context.Categories.AddRange(category1, category2, category3);
-                context.SaveChanges();
+                    context.Categories.AddRange(category1, category2, category3);
+                    context.SaveChanges();
+                }
             }
 
             using (var context = new IFSPStoreDbContext())

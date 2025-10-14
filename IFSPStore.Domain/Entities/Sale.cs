@@ -6,7 +6,7 @@ public class Sale : BaseEntity<int>
 {
     public DateTime Date { get; set; }
     public decimal TotalValue { get; set; }
-    public User User { get; set; }
+    public User Salesman { get; set; }
     public Customer Customer { get; set; }
     public List<SaleItem> Items { get; set; }
 
@@ -21,7 +21,7 @@ public class Sale : BaseEntity<int>
         Date = date;
         TotalValue = totalValue;
         Items = items;
-        User = user;
+        Salesman = user;
         Customer = customer;
     }
 }
