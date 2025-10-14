@@ -17,12 +17,12 @@ public class SaleItem : BaseEntity<int>
 
   
 
-    public SaleItem(int id, int quantity, decimal unitaryValue, decimal Saletotal, Product product, Sale sale)
+    public SaleItem(int id, int quantity, decimal unitaryValue, decimal saletotal, Product product, Sale sale)
         : base(id)
     {
         Quantity = quantity;
         UnitaryValue = unitaryValue;
-        Saletotal = SaleTotal;
+        SaleTotal = saletotal;
         Product = product;
         Sale = sale;
     }

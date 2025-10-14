@@ -1,5 +1,7 @@
-﻿using IFSPStore.Domain.Entities;    
+﻿using IFSPStore.Domain.Entities;
+using IFSPStore.Repository.Mapping;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 
 
@@ -9,7 +11,7 @@ namespace IFSPStore.Repository.Context
     {
         public IFSPStoreContext() : base()
         {
-            Database.EnsureCreated(); // Create the database if it does not exist   
+            //Database.EnsureCreated(); // Create the database if it does not exist   
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) 
         {
@@ -17,8 +19,6 @@ namespace IFSPStore.Repository.Context
 
         }
 
-        
-        
         public DbSet<User> Users { get; set; }
 
         public DbSet<City> Cities { get; set; } 
@@ -31,7 +31,18 @@ namespace IFSPStore.Repository.Context
            
         public DbSet<Sale> Sales { get; set; }   
             
-        public  DbSet<SaleItem> SaleItems { get; set; } 
-        
+        public  DbSet<SaleItem> SaleItems { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+            modelBuilder.Entity<Category>(new CategoryMap().Configure);
+            modelBuilder.Entity<City>(new CityMap().Configure);
+            modelBuilder.Entity<Customer>(new CustomerMap().Configure);
+            modelBuilder.Entity<Product>(new ProductMap().Configure);
+            modelBuilder.Entity<User>(new UserMap().Configure);
+            modelBuilder.Entity<Sale>(new SaleMap().Configure);
+            modelBuilder.Entity<SaleItem>(new SaleItemMap().Configure);
+        }
     }
 }

@@ -6,7 +6,7 @@ namespace IFSPStore.Domain.Entities;
 public class Product : BaseEntity<int>
 {
     public string Name { get; set; }
-    public decimal Value { get; set; }
+    public decimal Price { get; set; }
     public int Quantity { get; set; }
     public DateTime PurchaseDate { get; set; }
     public string SaleUnity { get; set; }
@@ -17,11 +17,11 @@ public class Product : BaseEntity<int>
     { 
     }
 
-    public Product(int id, string name, decimal value, int quantity, DateTime purchaseDate, string saleUnity, Category category)
+    public Product(int id, string name, decimal price, int quantity, DateTime purchaseDate, string saleUnity, Category category)
         : base(id)
     {
         Name = name;
-        Value = value;
+        Price = price;
         Quantity = quantity;
         PurchaseDate = purchaseDate;
         SaleUnity = saleUnity;
