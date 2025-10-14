@@ -3,32 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\migue\\OneDrive\\Documentos\\Faculdade\\poe\\IFPSStore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5896AF0C-86BE-42B2-B921-0F7A531AB8A8}|IFSPStore.Test\\IFSPStore.Test.csproj|c:\\users\\migue\\onedrive\\documentos\\faculdade\\poe\\ifpsstore\\ifspstore.test\\repositorytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5896AF0C-86BE-42B2-B921-0F7A531AB8A8}|IFSPStore.Test\\IFSPStore.Test.csproj|solutionrelative:ifspstore.test\\repositorytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{560DBE00-2827-4F1F-BE0F-8B504E3EFDCF}|IFSPStore.Repository\\IFSPStore.Repository.csproj|c:\\users\\migue\\onedrive\\documentos\\faculdade\\poe\\ifpsstore\\ifspstore.repository\\migrations\\20251014143210_add teste banana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{560DBE00-2827-4F1F-BE0F-8B504E3EFDCF}|IFSPStore.Repository\\IFSPStore.Repository.csproj|solutionrelative:ifspstore.repository\\migrations\\20251014143210_add teste banana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{560DBE00-2827-4F1F-BE0F-8B504E3EFDCF}|IFSPStore.Repository\\IFSPStore.Repository.csproj|c:\\users\\migue\\onedrive\\documentos\\faculdade\\poe\\ifpsstore\\ifspstore.repository\\context\\ifspstoredbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{560DBE00-2827-4F1F-BE0F-8B504E3EFDCF}|IFSPStore.Repository\\IFSPStore.Repository.csproj|solutionrelative:ifspstore.repository\\context\\ifspstoredbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{560DBE00-2827-4F1F-BE0F-8B504E3EFDCF}|IFSPStore.Repository\\IFSPStore.Repository.csproj|c:\\users\\migue\\onedrive\\documentos\\faculdade\\poe\\ifpsstore\\ifspstore.repository\\mapping\\usermap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{560DBE00-2827-4F1F-BE0F-8B504E3EFDCF}|IFSPStore.Repository\\IFSPStore.Repository.csproj|solutionrelative:ifspstore.repository\\mapping\\usermap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5896AF0C-86BE-42B2-B921-0F7A531AB8A8}|IFSPStore.Test\\IFSPStore.Test.csproj|c:\\users\\migue\\onedrive\\documentos\\faculdade\\poe\\ifpsstore\\ifspstore.test\\repositorytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5896AF0C-86BE-42B2-B921-0F7A531AB8A8}|IFSPStore.Test\\IFSPStore.Test.csproj|solutionrelative:ifspstore.test\\repositorytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{560DBE00-2827-4F1F-BE0F-8B504E3EFDCF}|IFSPStore.Repository\\IFSPStore.Repository.csproj|c:\\users\\migue\\onedrive\\documentos\\faculdade\\poe\\ifpsstore\\ifspstore.repository\\mapping\\salemap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{560DBE00-2827-4F1F-BE0F-8B504E3EFDCF}|IFSPStore.Repository\\IFSPStore.Repository.csproj|solutionrelative:ifspstore.repository\\mapping\\salemap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{560DBE00-2827-4F1F-BE0F-8B504E3EFDCF}|IFSPStore.Repository\\IFSPStore.Repository.csproj|c:\\users\\migue\\onedrive\\documentos\\faculdade\\poe\\ifpsstore\\ifspstore.repository\\mapping\\saleitemmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{560DBE00-2827-4F1F-BE0F-8B504E3EFDCF}|IFSPStore.Repository\\IFSPStore.Repository.csproj|solutionrelative:ifspstore.repository\\mapping\\saleitemmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{560DBE00-2827-4F1F-BE0F-8B504E3EFDCF}|IFSPStore.Repository\\IFSPStore.Repository.csproj|c:\\users\\migue\\onedrive\\documentos\\faculdade\\poe\\ifpsstore\\ifspstore.repository\\mapping\\productmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{560DBE00-2827-4F1F-BE0F-8B504E3EFDCF}|IFSPStore.Repository\\IFSPStore.Repository.csproj|solutionrelative:ifspstore.repository\\mapping\\productmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{560DBE00-2827-4F1F-BE0F-8B504E3EFDCF}|IFSPStore.Repository\\IFSPStore.Repository.csproj|c:\\users\\migue\\onedrive\\documentos\\faculdade\\poe\\ifpsstore\\ifspstore.repository\\mapping\\customermap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{560DBE00-2827-4F1F-BE0F-8B504E3EFDCF}|IFSPStore.Repository\\IFSPStore.Repository.csproj|solutionrelative:ifspstore.repository\\mapping\\customermap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1FEB8B1A-207B-4E74-A4FD-9BFC45A53C69}|IFSPStore.Domain\\IFSPStore.Domain.csproj|c:\\users\\migue\\onedrive\\documentos\\faculdade\\poe\\ifpsstore\\ifspstore.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FEB8B1A-207B-4E74-A4FD-9BFC45A53C69}|IFSPStore.Domain\\IFSPStore.Domain.csproj|solutionrelative:ifspstore.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{560DBE00-2827-4F1F-BE0F-8B504E3EFDCF}|IFSPStore.Repository\\IFSPStore.Repository.csproj|c:\\users\\migue\\onedrive\\documentos\\faculdade\\poe\\ifpsstore\\ifspstore.repository\\mapping\\citymap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,34 +34,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1203,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserMap.cs",
-              "DocumentMoniker": "C:\\Users\\migue\\OneDrive\\Documentos\\Faculdade\\poe\\IFPSStore\\IFSPStore.Repository\\Mapping\\UserMap.cs",
-              "RelativeDocumentMoniker": "IFSPStore.Repository\\Mapping\\UserMap.cs",
-              "ToolTip": "C:\\Users\\migue\\OneDrive\\Documentos\\Faculdade\\poe\\IFPSStore\\IFSPStore.Repository\\Mapping\\UserMap.cs",
-              "RelativeToolTip": "IFSPStore.Repository\\Mapping\\UserMap.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T12:26:00.731Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IFSPStoreDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\migue\\OneDrive\\Documentos\\Faculdade\\poe\\IFPSStore\\IFSPStore.Repository\\Context\\IFSPStoreDbContext.cs",
-              "RelativeDocumentMoniker": "IFSPStore.Repository\\Context\\IFSPStoreDbContext.cs",
-              "ToolTip": "C:\\Users\\migue\\OneDrive\\Documentos\\Faculdade\\poe\\IFPSStore\\IFSPStore.Repository\\Context\\IFSPStoreDbContext.cs",
-              "RelativeToolTip": "IFSPStore.Repository\\Context\\IFSPStoreDbContext.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T12:23:10.18Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
@@ -100,93 +62,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SaleMap.cs",
-              "DocumentMoniker": "C:\\Users\\migue\\OneDrive\\Documentos\\Faculdade\\poe\\IFPSStore\\IFSPStore.Repository\\Mapping\\SaleMap.cs",
-              "RelativeDocumentMoniker": "IFSPStore.Repository\\Mapping\\SaleMap.cs",
-              "ToolTip": "C:\\Users\\migue\\OneDrive\\Documentos\\Faculdade\\poe\\IFPSStore\\IFSPStore.Repository\\Mapping\\SaleMap.cs",
-              "RelativeToolTip": "IFSPStore.Repository\\Mapping\\SaleMap.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAYwCYAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T12:10:02.651Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SaleItemMap.cs",
-              "DocumentMoniker": "C:\\Users\\migue\\OneDrive\\Documentos\\Faculdade\\poe\\IFPSStore\\IFSPStore.Repository\\Mapping\\SaleItemMap.cs",
-              "RelativeDocumentMoniker": "IFSPStore.Repository\\Mapping\\SaleItemMap.cs",
-              "ToolTip": "C:\\Users\\migue\\OneDrive\\Documentos\\Faculdade\\poe\\IFPSStore\\IFSPStore.Repository\\Mapping\\SaleItemMap.cs",
-              "RelativeToolTip": "IFSPStore.Repository\\Mapping\\SaleItemMap.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwCEAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T12:10:01.232Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProductMap.cs",
-              "DocumentMoniker": "C:\\Users\\migue\\OneDrive\\Documentos\\Faculdade\\poe\\IFPSStore\\IFSPStore.Repository\\Mapping\\ProductMap.cs",
-              "RelativeDocumentMoniker": "IFSPStore.Repository\\Mapping\\ProductMap.cs",
-              "ToolTip": "C:\\Users\\migue\\OneDrive\\Documentos\\Faculdade\\poe\\IFPSStore\\IFSPStore.Repository\\Mapping\\ProductMap.cs",
-              "RelativeToolTip": "IFSPStore.Repository\\Mapping\\ProductMap.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAYwCYAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T12:09:59.545Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CityMap.cs",
-              "DocumentMoniker": "C:\\Users\\migue\\OneDrive\\Documentos\\Faculdade\\poe\\IFPSStore\\IFSPStore.Repository\\Mapping\\CityMap.cs",
-              "RelativeDocumentMoniker": "IFSPStore.Repository\\Mapping\\CityMap.cs",
-              "ToolTip": "C:\\Users\\migue\\OneDrive\\Documentos\\Faculdade\\poe\\IFPSStore\\IFSPStore.Repository\\Mapping\\CityMap.cs",
-              "RelativeToolTip": "IFSPStore.Repository\\Mapping\\CityMap.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T12:09:57.618Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CustomerMap.cs",
-              "DocumentMoniker": "C:\\Users\\migue\\OneDrive\\Documentos\\Faculdade\\poe\\IFPSStore\\IFSPStore.Repository\\Mapping\\CustomerMap.cs",
-              "RelativeDocumentMoniker": "IFSPStore.Repository\\Mapping\\CustomerMap.cs",
-              "ToolTip": "C:\\Users\\migue\\OneDrive\\Documentos\\Faculdade\\poe\\IFPSStore\\IFSPStore.Repository\\Mapping\\CustomerMap.cs",
-              "RelativeToolTip": "IFSPStore.Repository\\Mapping\\CustomerMap.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAwwCUAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T12:09:36.998Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "20251014143210_Add teste Banana.cs",
+              "DocumentMoniker": "C:\\Users\\migue\\OneDrive\\Documentos\\Faculdade\\poe\\IFPSStore\\IFSPStore.Repository\\Migrations\\20251014143210_Add teste Banana.cs",
+              "RelativeDocumentMoniker": "IFSPStore.Repository\\Migrations\\20251014143210_Add teste Banana.cs",
+              "ToolTip": "C:\\Users\\migue\\OneDrive\\Documentos\\Faculdade\\poe\\IFPSStore\\IFSPStore.Repository\\Migrations\\20251014143210_Add teste Banana.cs",
+              "RelativeToolTip": "IFSPStore.Repository\\Migrations\\20251014143210_Add teste Banana.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T14:32:18.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "RepositoryTest.cs",
               "DocumentMoniker": "C:\\Users\\migue\\OneDrive\\Documentos\\Faculdade\\poe\\IFPSStore\\IFSPStore.Test\\RepositoryTest.cs",
               "RelativeDocumentMoniker": "IFSPStore.Test\\RepositoryTest.cs",
               "ToolTip": "C:\\Users\\migue\\OneDrive\\Documentos\\Faculdade\\poe\\IFPSStore\\IFSPStore.Test\\RepositoryTest.cs",
               "RelativeToolTip": "IFSPStore.Test\\RepositoryTest.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAQwCkAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAkwBsAAABZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T12:08:47.288Z",
+              "WhenOpened": "2025-10-14T14:25:18.695Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
+              "Title": "IFSPStoreDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\migue\\OneDrive\\Documentos\\Faculdade\\poe\\IFPSStore\\IFSPStore.Repository\\Context\\IFSPStoreDbContext.cs",
+              "RelativeDocumentMoniker": "IFSPStore.Repository\\Context\\IFSPStoreDbContext.cs",
+              "ToolTip": "C:\\Users\\migue\\OneDrive\\Documentos\\Faculdade\\poe\\IFPSStore\\IFSPStore.Repository\\Context\\IFSPStoreDbContext.cs",
+              "RelativeToolTip": "IFSPStore.Repository\\Context\\IFSPStoreDbContext.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwB4AAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T14:11:55.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "CategoryMap.cs",
               "DocumentMoniker": "C:\\Users\\migue\\OneDrive\\Documentos\\Faculdade\\poe\\IFPSStore\\IFSPStore.Repository\\Mapping\\CategoryMap.cs",
               "RelativeDocumentMoniker": "IFSPStore.Repository\\Mapping\\CategoryMap.cs",
               "ToolTip": "C:\\Users\\migue\\OneDrive\\Documentos\\Faculdade\\poe\\IFPSStore\\IFSPStore.Repository\\Mapping\\CategoryMap.cs",
               "RelativeToolTip": "IFSPStore.Repository\\Mapping\\CategoryMap.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T12:09:56.453Z",
+              "WhenOpened": "2025-10-14T14:06:47.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CityMap.cs",
+              "DocumentMoniker": "C:\\Users\\migue\\OneDrive\\Documentos\\Faculdade\\poe\\IFPSStore\\IFSPStore.Repository\\Mapping\\CityMap.cs",
+              "RelativeDocumentMoniker": "IFSPStore.Repository\\Mapping\\CityMap.cs",
+              "ToolTip": "C:\\Users\\migue\\OneDrive\\Documentos\\Faculdade\\poe\\IFPSStore\\IFSPStore.Repository\\Mapping\\CityMap.cs",
+              "RelativeToolTip": "IFSPStore.Repository\\Mapping\\CityMap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T14:06:46.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\migue\\OneDrive\\Documentos\\Faculdade\\poe\\IFPSStore\\IFSPStore.Domain\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "IFSPStore.Domain\\Entities\\Category.cs",
+              "ToolTip": "C:\\Users\\migue\\OneDrive\\Documentos\\Faculdade\\poe\\IFPSStore\\IFSPStore.Domain\\Entities\\Category.cs",
+              "RelativeToolTip": "IFSPStore.Domain\\Entities\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T14:06:29.057Z",
               "EditorCaption": ""
             }
           ]

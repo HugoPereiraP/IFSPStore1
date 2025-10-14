@@ -23,9 +23,9 @@ namespace IFSPStore.Test
 
                 if(!context.Categories.Any())
                 {
-                    var category1 = new Category(1, "Carnes");
-                    var category2 = new Category(2, "Bebidas");
-                    var category3 = new Category(3, "Eletronicos");
+                    var category1 = new Category(1, "Carnes", "Carnes legais");
+                    var category2 = new Category(2, "Bebidas", "Bebidas legais");
+                    var category3 = new Category(3, "Eletronicos", "Eletronicos legais");
 
                     context.Categories.AddRange(category1, category2, category3);
                     context.SaveChanges();
