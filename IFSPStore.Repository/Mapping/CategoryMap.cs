@@ -16,6 +16,7 @@ namespace IFSPStore.Repository.Mapping
                 .IsRequired();
             builder.Property(prop => prop.Description)
                 .HasMaxLength(1000);
+
         }
     }
 }

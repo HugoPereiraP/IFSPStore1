@@ -8,7 +8,7 @@ namespace IFSPStore.Domain.Base
 {
     public abstract class BaseEntity<TId> : IBaseEntity
     {
-        protected BaseEntity()
+        public BaseEntity()
         {
 
         }
