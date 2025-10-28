@@ -37,6 +37,6 @@ public class UserMap : IEntityTypeConfiguration<User>
         builder.Property(c => c.RegisterDate)
             .IsRequired();
         builder.Property(c => c.IsActive)
-            .HasColumnType("bit(1)");
+            .HasDefaultValue(true);
     }
 }

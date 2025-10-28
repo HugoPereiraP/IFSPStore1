@@ -13,7 +13,9 @@ public class IFSPStoreDbContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseMySQL("Server=localhost;DataBase=IFSPStoreDb;Uid=Developer;Pwd=123456789");
+        //optionsBuilder.UseMySQL("Server=localhost;DataBase=IFSPStoreDb;Uid=Developer;Pwd=123456789");
+
+        optionsBuilder.UseNpgsql("User ID=developer;Password=123456789;Server=localhost;Port=5432;Database=IFSPStoreDb;");
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -38,5 +40,4 @@ public class IFSPStoreDbContext : DbContext
     public DbSet<Sale> Sales { get; set; }
     public DbSet<SaleItem> SaleItems { get; set; }
     public DbSet<User> Users { get; set; }
-    public DbSet<Banana> Bananas { get; set; }
 }
