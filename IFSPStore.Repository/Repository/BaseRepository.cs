@@ -60,6 +60,7 @@ namespace IFSPStore.Repository.Repository
         public void Insert(TEntity obj)
         {
             _mysqlContext.Set<TEntity>().Add(obj);
+            _mysqlContext.SaveChanges();
         }
 
         public IList<TEntity> Select(IList<string>? includes = null)
