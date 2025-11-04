@@ -22,3 +22,4 @@ C:\Users\migue\OneDrive\Documentos\Faculdade\poe\IFPSStore\IFSPStore.Domain\obj\
 C:\Users\migue\OneDrive\Documentos\Faculdade\poe\IFPSStore\IFSPStore.Domain\obj\Debug\net8.0\refint\IFSPStore.Domain.dll
 C:\Users\migue\OneDrive\Documentos\Faculdade\poe\IFPSStore\IFSPStore.Domain\obj\Debug\net8.0\IFSPStore.Domain.pdb
 C:\Users\migue\OneDrive\Documentos\Faculdade\poe\IFPSStore\IFSPStore.Domain\obj\Debug\net8.0\ref\IFSPStore.Domain.dll
+C:\Users\migue\OneDrive\Documentos\Faculdade\poe\IFPSStore\IFSPStore.Domain\obj\Debug\net8.0\IFSPStore.Domain.csproj.AssemblyReference.cache
