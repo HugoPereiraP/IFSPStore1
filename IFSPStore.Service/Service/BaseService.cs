@@ -10,10 +10,16 @@ using System.Threading.Tasks;
 
 namespace IFSPStore.Service.Service;
 
-public class BaseService<TEntity>() : IBaseService<TEntity> where TEntity : IBaseEntity
+public class BaseService<TEntity> : IBaseService<TEntity> where TEntity : IBaseEntity
 {
     private readonly IBaseRepository<TEntity> _baseRepository;
     private readonly IMapper _mapper;
+
+    public BaseService(IBaseRepository<TEntity> baseRepository, IMapper mapper)
+    {
+        _baseRepository = baseRepository;
+        _mapper = mapper;
+    }
 
     public IEnumerable<TOutputModel> Get<TOutputModel>(IList<string> includes = null) where TOutputModel : class
     {

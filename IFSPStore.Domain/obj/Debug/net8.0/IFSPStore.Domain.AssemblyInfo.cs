@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IFSPStore.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8ad1a5ecbdf65cf73518503047e8ca66fca85ffa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f26ec25a037048cf892d4734f859bf0ec4092a52")]
 [assembly: System.Reflection.AssemblyProductAttribute("IFSPStore.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IFSPStore.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
