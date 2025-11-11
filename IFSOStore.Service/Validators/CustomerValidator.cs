@@ -3,7 +3,7 @@ using IFSPStore.Domain.Base;
 using IFSPStore.Domain.Entities;
 
 
-namespace IFSOStore.Service.Validators
+namespace IFSPStore.Service.Validators
 {
     public class CustomerValidator : AbstractValidator<Customer>
     {

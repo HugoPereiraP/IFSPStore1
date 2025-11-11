@@ -2,7 +2,7 @@
 using FluentValidation;
 using IFSPStore.Domain.Base;
 
-namespace IFSOStore.Service.Service
+namespace IFSPStore.Service.Service
 {
 
     public class BaseService<TEntity> : IBaseService<TEntity> where TEntity : IBaseEntity

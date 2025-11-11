@@ -9,9 +9,9 @@ namespace IFSPStore.Repository.Context
 {
     public class IFSPStoreContext : DbContext
     {
-        public IFSPStoreContext() : base()
+        public IFSPStoreContext(DbContextOptions<IFSPStoreContext>? op=null) : base(op)
         {
-            //Database.EnsureCreated(); // Create the database if it does not exist   
+            Database.EnsureCreated(); // Create the database if it does not exist   
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) 
         {

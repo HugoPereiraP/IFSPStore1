@@ -1,7 +1,7 @@
 ﻿using FluentValidation;
 using IFSPStore.Domain.Entities;
 
-namespace IFSOStore.Service.Validators
+namespace IFSPStore.Service.Validators
 {
     public class CityValidator : AbstractValidator<City>
     {

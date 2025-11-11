@@ -1,11 +1,11 @@
 ﻿using IFSPStore.Domain.Base;
-using IFSOStore.Service.Service;
+using IFSPStore.Service.Service;
 using IFSPStore.Domain.Entities;
 using Microsoft.Extensions.DependencyInjection;
 using IFSPStore.Repository.Context;
 using IFSPStore.Repository.Repository;
 using AutoMapper;
-using IFSOStore.Service.Validators;
+using IFSPStore.Service.Validators;
 using System.Text.Json;
 using Microsoft.Extensions.Logging.Abstractions;
 

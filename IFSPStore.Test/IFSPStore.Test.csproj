@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\IFSOStore.Service\IFSOStore.Service.csproj" />
+    <ProjectReference Include="..\IFSOStore.Service\IFSPStore.Service.csproj" />
     <ProjectReference Include="..\IFSPStore.Repository\IFSPStore.Repository.csproj" />
   </ItemGroup>
 

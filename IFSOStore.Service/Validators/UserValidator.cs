@@ -2,7 +2,7 @@
 using IFSPStore.Domain.Entities;
 
 
-namespace IFSOStore.Service.Validators
+namespace IFSPStore.Service.Validators
 {
     public class UserValidator : AbstractValidator<User>    
     {
