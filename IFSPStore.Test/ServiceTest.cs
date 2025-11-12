@@ -5,12 +5,7 @@ using IFSPStore.Repository.Repository;
 using IFSPStore.Service.Service;
 using IFSPStore.Service.Validators;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Text.Json;
-using System.Threading.Tasks;
 
 namespace IFSPStore.Test;
 
@@ -57,6 +52,5 @@ public class ServiceTest
         var result = _userService.Add<User, User, UserValidator>(user);
 
         Console.WriteLine(JsonSerializer.Serialize(result));
-        
     }
 }

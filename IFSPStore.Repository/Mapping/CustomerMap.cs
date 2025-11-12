@@ -22,6 +22,9 @@ public class CustomerMap : IEntityTypeConfiguration<Customer>
 
         builder.HasKey(c => c.Id);
 
+        builder.Property(c => c.Id)
+            .ValueGeneratedOnAdd();
+
         builder.Property(c => c.Name)
             .IsRequired()
             .HasMaxLength(100);

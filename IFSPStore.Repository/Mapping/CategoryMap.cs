@@ -16,6 +16,9 @@ public class CategoryMap : IEntityTypeConfiguration<Category>
 
         builder.HasKey(c => c.Id);
 
+        builder.Property(c => c.Id)
+            .ValueGeneratedOnAdd();
+
         builder.Property(c => c.Name)
             .IsRequired()
             .HasMaxLength(60);

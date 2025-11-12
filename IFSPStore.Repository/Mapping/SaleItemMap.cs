@@ -22,6 +22,9 @@ public class SaleItemMap : IEntityTypeConfiguration<SaleItem>
 
         builder.HasKey(c => c.Id);
 
+        builder.Property(c => c.Id)
+            .ValueGeneratedOnAdd();
+
         builder.Property(c => c.Quantity)
             .IsRequired();
         builder.Property(c => c.UnitaryValue)
