@@ -24,7 +24,7 @@ public class BaseRepository<TEntity>(IFSPStoreDbContext context)
 
     public void Delete(object id)
     {
-        context.Set<TEntity>().Remove((TEntity)id);
+        context.Set<TEntity>().Remove(Select(id));
         context.SaveChanges();
     }
 
@@ -64,7 +64,7 @@ public class BaseRepository<TEntity>(IFSPStoreDbContext context)
 
     public void Update(TEntity entity)
     {
-        context.Set<TEntity>().Update(entity);
+        context.Entry(entity).State = EntityState.Modified;
         context.SaveChanges();
     }
 }

@@ -28,12 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CategoryForm));
             mtbName = new ReaLTaiizor.Controls.MaterialTextBoxEdit();
             mtbId = new ReaLTaiizor.Controls.MaterialTextBoxEdit();
             mtbDescription = new ReaLTaiizor.Controls.MaterialTextBoxEdit();
             tabPageRegister.SuspendLayout();
             tabControlRegister.SuspendLayout();
             tabPageList.SuspendLayout();
+            panel2.SuspendLayout();
+            panel1.SuspendLayout();
             SuspendLayout();
             // 
             // tabPageRegister
@@ -41,43 +44,34 @@
             tabPageRegister.Controls.Add(mtbDescription);
             tabPageRegister.Controls.Add(mtbId);
             tabPageRegister.Controls.Add(mtbName);
-            tabPageRegister.Location = new Point(4, 29);
-            tabPageRegister.Size = new Size(736, 452);
-            tabPageRegister.Controls.SetChildIndex(btnCancel, 0);
-            tabPageRegister.Controls.SetChildIndex(btnSave, 0);
+            tabPageRegister.Size = new Size(750, 448);
             tabPageRegister.Controls.SetChildIndex(mtbName, 0);
             tabPageRegister.Controls.SetChildIndex(mtbId, 0);
             tabPageRegister.Controls.SetChildIndex(mtbDescription, 0);
+            tabPageRegister.Controls.SetChildIndex(panel1, 0);
             // 
             // btnSave
             // 
-            btnSave.Location = new Point(652, 407);
+            btnSave.Location = new Point(660, 13);
             // 
             // btnCancel
             // 
-            btnCancel.Location = new Point(567, 407);
-            // 
-            // btnNew
-            // 
-            btnNew.Location = new Point(665, 405);
-            // 
-            // btnDelete
-            // 
-            btnDelete.Location = new Point(657, 405);
-            // 
-            // btnEdit
-            // 
-            btnEdit.Location = new Point(593, 405);
+            btnCancel.Location = new Point(575, 13);
             // 
             // tabControlRegister
             // 
-            tabControlRegister.ImageList = null;
-            tabControlRegister.Size = new Size(744, 485);
+            tabControlRegister.Size = new Size(758, 483);
             // 
-            // tabPageList
+            // imageListRegister
             // 
-            tabPageList.Location = new Point(4, 29);
-            tabPageList.Size = new Size(736, 452);
+            imageListRegister.ImageStream = (ImageListStreamer)resources.GetObject("imageListRegister.ImageStream");
+            imageListRegister.Images.SetKeyName(0, "form.png");
+            imageListRegister.Images.SetKeyName(1, "search.png");
+            // 
+            // panel1
+            // 
+            panel1.Location = new Point(3, 390);
+            panel1.Size = new Size(744, 55);
             // 
             // mtbName
             // 
@@ -118,6 +112,7 @@
             mtbId.BackgroundImageLayout = ImageLayout.None;
             mtbId.CharacterCasing = CharacterCasing.Normal;
             mtbId.Depth = 0;
+            mtbId.Enabled = false;
             mtbId.Font = new Font("Microsoft Sans Serif", 16F, FontStyle.Regular, GraphicsUnit.Pixel);
             mtbId.HideSelection = true;
             mtbId.Hint = "Id";
@@ -176,17 +171,18 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(750, 552);
-            DrawerTabControl = tabControlRegister;
+            ClientSize = new Size(764, 550);
             Location = new Point(0, 0);
             Name = "CategoryForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Category Register";
             tabPageRegister.ResumeLayout(false);
-            tabPageRegister.PerformLayout();
             tabControlRegister.ResumeLayout(false);
             tabPageList.ResumeLayout(false);
-            tabPageList.PerformLayout();
+            panel2.ResumeLayout(false);
+            panel2.PerformLayout();
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
             ResumeLayout(false);
         }
 

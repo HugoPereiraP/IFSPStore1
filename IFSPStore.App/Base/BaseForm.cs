@@ -19,7 +19,7 @@ namespace IFSPStore.App.Base
         protected void ClearFields()
         {
             isEditMode = false;
-            foreach (var control in Controls)
+            foreach (var control in tabPageRegister.Controls)
             {
                 if (control is MaterialTextBoxEdit textBox)
                     textBox.Clear();
@@ -70,7 +70,7 @@ namespace IFSPStore.App.Base
         #endregion
 
         #region Events
-        protected void materialButton1_Click(object sender, EventArgs e)
+        protected void btnCancel_Click(object sender, EventArgs e)
         {
             if (MessageBox.Show("Are you sure cancel?", "IFSP Store",
                 MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)

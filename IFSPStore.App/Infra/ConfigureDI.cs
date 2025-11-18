@@ -1,4 +1,5 @@
 ﻿using IFSPStore.App.Register;
+using IFSPStore.App.ViewModels;
 using IFSPStore.Domain.Base;
 using IFSPStore.Domain.Entities;
 using IFSPStore.Repository.Context;
@@ -35,6 +36,7 @@ internal static class ConfigureDI
         services.AddAutoMapper(config =>
         {
             config.CreateMap<User, User>().ReverseMap();
+            config.CreateMap<Category, CategoryModel>().ReverseMap();
         });
 
         services.AddTransient<CategoryForm>();

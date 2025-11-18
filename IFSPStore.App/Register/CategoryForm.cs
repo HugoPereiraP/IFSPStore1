@@ -1,4 +1,5 @@
 ﻿using IFSPStore.App.Base;
+using IFSPStore.App.ViewModels;
 using IFSPStore.Domain.Base;
 using IFSPStore.Domain.Entities;
 using IFSPStore.Service.Validators;
@@ -9,7 +10,7 @@ public partial class CategoryForm : BaseForm
 {
     #region Variables
     private readonly IBaseService<Category> _categoryService;
-    private List<Category> _categories;
+    private List<CategoryModel> _categories;
 
     #endregion
 
@@ -50,12 +51,14 @@ public partial class CategoryForm : BaseForm
                 category = _categoryService.Add<Category, Category, CategoryValidator>(category);
             }
 
+            ClearFields();
+
             MessageBox.Show("Product saved successfully", "IFSP Store",
                 MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
-        catch(Exception ex) 
+        catch (Exception ex)
         {
-            MessageBox.Show(ex.Message, "IFSP Store", 
+            MessageBox.Show(ex.Message, "IFSP Store",
                 MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
     }
@@ -77,7 +80,7 @@ public partial class CategoryForm : BaseForm
     {
         try
         {
-            _categories = _categoryService.Get<Category>().ToList();
+            _categories = _categoryService.Get<CategoryModel>().ToList();
             dataGridViewList.DataSource = _categories;
             dataGridViewList.Columns["Name"].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
 
@@ -95,6 +98,7 @@ public partial class CategoryForm : BaseForm
         {
             mtbId.Text = record?.Cells["Id"].Value.ToString();
             mtbName.Text = record?.Cells["Name"].Value.ToString();
+            mtbDescription.Text = record?.Cells["Description"].Value.ToString();
         }
         catch (Exception ex)
         {
