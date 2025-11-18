@@ -1,5 +1,4 @@
 ﻿using IFSPStore.Domain.Base;
-using System.Globalization;
 
 namespace IFSPStore.Domain.Entities;
 

@@ -65,6 +65,7 @@
             userToolStripMenuItem.Name = "userToolStripMenuItem";
             userToolStripMenuItem.Size = new Size(224, 26);
             userToolStripMenuItem.Text = "User";
+            userToolStripMenuItem.Click += userToolStripMenuItem_Click;
             // 
             // categoryToolStripMenuItem
             // 
@@ -84,6 +85,7 @@
             cityToolStripMenuItem.Name = "cityToolStripMenuItem";
             cityToolStripMenuItem.Size = new Size(224, 26);
             cityToolStripMenuItem.Text = "City";
+            cityToolStripMenuItem.Click += cityToolStripMenuItem_Click;
             // 
             // customerToolStripMenuItem
             // 
@@ -132,6 +134,7 @@
             Name = "MainForm";
             Text = "IFSP Store";
             WindowState = FormWindowState.Maximized;
+            FormClosing += MainForm_FormClosing;
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             ResumeLayout(false);
