@@ -24,7 +24,7 @@ internal static class ConfigureDI
         services.AddDbContext<IFSPStoreDbContext>(options =>
         {
             options.LogTo(Console.WriteLine);
-            options.UseNpgsql(dbConnectionString);
+            options.UseMySQL(dbConnectionString);
         });
 
         #region Repositories

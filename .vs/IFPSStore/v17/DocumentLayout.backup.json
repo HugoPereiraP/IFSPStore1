@@ -1,10 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\migue\\OneDrive\\Documentos\\Faculdade\\poe\\IFPSStore\\",
+  "WorkspaceRootPath": "C:\\Users\\hugop\\source\\repos\\IFSPStore1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5896AF0C-86BE-42B2-B921-0F7A531AB8A8}|IFSPStore.Test\\IFSPStore.Test.csproj|c:\\users\\migue\\onedrive\\documentos\\faculdade\\poe\\ifpsstore\\ifspstore.test\\repositorytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5896AF0C-86BE-42B2-B921-0F7A531AB8A8}|IFSPStore.Test\\IFSPStore.Test.csproj|solutionrelative:ifspstore.test\\repositorytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0FC324D8-B51F-4C3B-8275-8EB7347A40EE}|IFSPStore.App\\IFSPStore.App.csproj|c:\\users\\hugop\\source\\repos\\ifspstore1\\ifspstore.app\\config\\dbconfig.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{0FC324D8-B51F-4C3B-8275-8EB7347A40EE}|IFSPStore.App\\IFSPStore.App.csproj|solutionrelative:ifspstore.app\\config\\dbconfig.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{560DBE00-2827-4F1F-BE0F-8B504E3EFDCF}|IFSPStore.Repository\\IFSPStore.Repository.csproj|c:\\users\\hugop\\source\\repos\\ifspstore1\\ifspstore.repository\\context\\ifspstoredbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{560DBE00-2827-4F1F-BE0F-8B504E3EFDCF}|IFSPStore.Repository\\IFSPStore.Repository.csproj|solutionrelative:ifspstore.repository\\context\\ifspstoredbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{560DBE00-2827-4F1F-BE0F-8B504E3EFDCF}|IFSPStore.Repository\\IFSPStore.Repository.csproj|c:\\users\\hugop\\source\\repos\\ifspstore1\\ifspstore.repository\\migrations\\20251021121036_initial migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{560DBE00-2827-4F1F-BE0F-8B504E3EFDCF}|IFSPStore.Repository\\IFSPStore.Repository.csproj|solutionrelative:ifspstore.repository\\migrations\\20251021121036_initial migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC324D8-B51F-4C3B-8275-8EB7347A40EE}|IFSPStore.App\\IFSPStore.App.csproj|c:\\users\\hugop\\source\\repos\\ifspstore1\\ifspstore.app\\infra\\configuredi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FC324D8-B51F-4C3B-8275-8EB7347A40EE}|IFSPStore.App\\IFSPStore.App.csproj|solutionrelative:ifspstore.app\\infra\\configuredi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{560DBE00-2827-4F1F-BE0F-8B504E3EFDCF}|IFSPStore.Repository\\IFSPStore.Repository.csproj|c:\\users\\hugop\\source\\repos\\ifspstore1\\ifspstore.repository\\migrations\\ifspstoredbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{560DBE00-2827-4F1F-BE0F-8B504E3EFDCF}|IFSPStore.Repository\\IFSPStore.Repository.csproj|solutionrelative:ifspstore.repository\\migrations\\ifspstoredbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{560DBE00-2827-4F1F-BE0F-8B504E3EFDCF}|IFSPStore.Repository\\IFSPStore.Repository.csproj|c:\\users\\hugop\\source\\repos\\ifspstore1\\ifspstore.repository\\migrations\\20251021121036_initial migration.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{560DBE00-2827-4F1F-BE0F-8B504E3EFDCF}|IFSPStore.Repository\\IFSPStore.Repository.csproj|solutionrelative:ifspstore.repository\\migrations\\20251021121036_initial migration.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{560DBE00-2827-4F1F-BE0F-8B504E3EFDCF}|IFSPStore.Repository\\IFSPStore.Repository.csproj|c:\\users\\hugop\\source\\repos\\ifspstore1\\ifspstore.repository\\repository\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{560DBE00-2827-4F1F-BE0F-8B504E3EFDCF}|IFSPStore.Repository\\IFSPStore.Repository.csproj|solutionrelative:ifspstore.repository\\repository\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FEB8B1A-207B-4E74-A4FD-9BFC45A53C69}|IFSPStore.Domain\\IFSPStore.Domain.csproj|c:\\users\\hugop\\source\\repos\\ifspstore1\\ifspstore.domain\\base\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FEB8B1A-207B-4E74-A4FD-9BFC45A53C69}|IFSPStore.Domain\\IFSPStore.Domain.csproj|solutionrelative:ifspstore.domain\\base\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1203,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,10 +54,6 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
@@ -37,21 +61,105 @@
               "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20251021121036_Initial Migration.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\hugop\\source\\repos\\IFSPStore1\\IFSPStore.Repository\\Migrations\\20251021121036_Initial Migration.Designer.cs",
+              "RelativeDocumentMoniker": "IFSPStore.Repository\\Migrations\\20251021121036_Initial Migration.Designer.cs",
+              "ToolTip": "C:\\Users\\hugop\\source\\repos\\IFSPStore1\\IFSPStore.Repository\\Migrations\\20251021121036_Initial Migration.Designer.cs",
+              "RelativeToolTip": "IFSPStore.Repository\\Migrations\\20251021121036_Initial Migration.Designer.cs",
+              "ViewState": "AgIAAMQAAAAAAAAAAAAIwNMAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T12:43:55.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IFSPStoreDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\hugop\\source\\repos\\IFSPStore1\\IFSPStore.Repository\\Context\\IFSPStoreDbContext.cs",
+              "RelativeDocumentMoniker": "IFSPStore.Repository\\Context\\IFSPStoreDbContext.cs",
+              "ToolTip": "C:\\Users\\hugop\\source\\repos\\IFSPStore1\\IFSPStore.Repository\\Context\\IFSPStoreDbContext.cs",
+              "RelativeToolTip": "IFSPStore.Repository\\Context\\IFSPStoreDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T12:37:39.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ConfigureDI.cs",
+              "DocumentMoniker": "C:\\Users\\hugop\\source\\repos\\IFSPStore1\\IFSPStore.App\\Infra\\ConfigureDI.cs",
+              "RelativeDocumentMoniker": "IFSPStore.App\\Infra\\ConfigureDI.cs",
+              "ToolTip": "C:\\Users\\hugop\\source\\repos\\IFSPStore1\\IFSPStore.App\\Infra\\ConfigureDI.cs",
+              "RelativeToolTip": "IFSPStore.App\\Infra\\ConfigureDI.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T12:39:54.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20251021121036_Initial Migration.cs",
+              "DocumentMoniker": "C:\\Users\\hugop\\source\\repos\\IFSPStore1\\IFSPStore.Repository\\Migrations\\20251021121036_Initial Migration.cs",
+              "RelativeDocumentMoniker": "IFSPStore.Repository\\Migrations\\20251021121036_Initial Migration.cs",
+              "ToolTip": "C:\\Users\\hugop\\source\\repos\\IFSPStore1\\IFSPStore.Repository\\Migrations\\20251021121036_Initial Migration.cs",
+              "RelativeToolTip": "IFSPStore.Repository\\Migrations\\20251021121036_Initial Migration.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAAAI8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T12:41:12.88Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "RepositoryTest.cs",
-              "DocumentMoniker": "C:\\Users\\migue\\OneDrive\\Documentos\\Faculdade\\poe\\IFPSStore\\IFSPStore.Test\\RepositoryTest.cs",
-              "RelativeDocumentMoniker": "IFSPStore.Test\\RepositoryTest.cs",
-              "ToolTip": "C:\\Users\\migue\\OneDrive\\Documentos\\Faculdade\\poe\\IFPSStore\\IFSPStore.Test\\RepositoryTest.cs",
-              "RelativeToolTip": "IFSPStore.Test\\RepositoryTest.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAADwv0IAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T12:18:00.405Z",
+              "Title": "DbConfig.txt",
+              "DocumentMoniker": "C:\\Users\\hugop\\source\\repos\\IFSPStore1\\IFSPStore.App\\Config\\DbConfig.txt",
+              "RelativeDocumentMoniker": "IFSPStore.App\\Config\\DbConfig.txt",
+              "ToolTip": "C:\\Users\\hugop\\source\\repos\\IFSPStore1\\IFSPStore.App\\Config\\DbConfig.txt",
+              "RelativeToolTip": "IFSPStore.App\\Config\\DbConfig.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-12-09T12:38:15.996Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IFSPStoreDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\hugop\\source\\repos\\IFSPStore1\\IFSPStore.Repository\\Migrations\\IFSPStoreDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "IFSPStore.Repository\\Migrations\\IFSPStoreDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\hugop\\source\\repos\\IFSPStore1\\IFSPStore.Repository\\Migrations\\IFSPStoreDbContextModelSnapshot.cs",
+              "RelativeToolTip": "IFSPStore.Repository\\Migrations\\IFSPStoreDbContextModelSnapshot.cs",
+              "ViewState": "AgIAABoBAAAAAAAAAAAiwDYBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T12:48:07.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BaseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\hugop\\source\\repos\\IFSPStore1\\IFSPStore.Repository\\Repository\\BaseRepository.cs",
+              "RelativeDocumentMoniker": "IFSPStore.Repository\\Repository\\BaseRepository.cs",
+              "ToolTip": "C:\\Users\\hugop\\source\\repos\\IFSPStore1\\IFSPStore.Repository\\Repository\\BaseRepository.cs",
+              "RelativeToolTip": "IFSPStore.Repository\\Repository\\BaseRepository.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAuwEQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T19:22:36.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IBaseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\hugop\\source\\repos\\IFSPStore1\\IFSPStore.Domain\\Base\\IBaseRepository.cs",
+              "RelativeDocumentMoniker": "IFSPStore.Domain\\Base\\IBaseRepository.cs",
+              "ToolTip": "C:\\Users\\hugop\\source\\repos\\IFSPStore1\\IFSPStore.Domain\\Base\\IBaseRepository.cs",
+              "RelativeToolTip": "IFSPStore.Domain\\Base\\IBaseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T19:13:17.228Z"
             }
           ]
         }

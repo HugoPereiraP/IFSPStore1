@@ -12,12 +12,7 @@ public class IFSPStoreDbContext : DbContext
         Database.EnsureCreated();
     }
 
-    //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-    //{
-    //    //optionsBuilder.UseMySQL("Server=localhost;DataBase=IFSPStoreDb;Uid=Developer;Pwd=123456789");
-
-    //    optionsBuilder.UseNpgsql("User ID=developer;Password=123456789;Server=localhost;Port=5432;Database=IFSPStoreDb;");
-    //}
+    
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
